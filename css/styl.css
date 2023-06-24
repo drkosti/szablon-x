@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body {
+  font-family: 'Mukta', sans-serif;
+  font-size: 15pt;
+}
+.full-cont {
+    max-height: 100hv;
+    display: block;
+    position: relative;
+}
+.nawigacja {
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 18pt;
+}
+
+.nawigacja .nav-link {
+  padding: 10px 50px 10px 50px;
+  color: White;
+  font-weight: 600;
+  text-shadow: 0px 0px 11px rgba(66, 68, 90, 1);
+  letter-spacing: 2px;
+}
+.nawigacja .nav-link:hover {
+  color: #fc0000;
+  text-shadow: none;
+}
+
+.nawigacja .nav-item {
+  padding: 40px 20px 0px 0px;
+}
+
+.nav-tlo .nav-item {
+  padding: 0px 20px 0px 0px;
+}
+.play a {
+  text-decoration: none;
+  margin: 5px 50px 0px 50px;
+  color: White;
+  display: block;
+}
+
+.miniatura {
+  margin-right: 10px;
+}
+
+.nav-tlo {
+  background-color: #1c1c1c!important;
+}
+#slider-top .carousel-item .slidx {  
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height:100vh;
+    position: relative;
+    z-index: -1;
+  }
+
+  .logo {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+  .promo1 {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    background-color: transparent;
+    color: black;
+    width: 18rem;
+  }
+  .promo2 {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-color: White;
+    width: 18rem;
+    font-size: 20pt;
+    text-align: center;
+  }
+
+  .winamp {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-image: url('../grafika/winamp.png');
+    background-repeat: no-repeat;
+  }
+
+  .wmp {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-image: url('../grafika/wmp.png');
+    background-repeat: no-repeat;
+  }
+
+  .app {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-image: url('../grafika/mobile.png');
+    background-repeat: no-repeat;
+  }
+
+  .winamp, .wmp, .app {
+    margin: 5px;
+  }
+
+  .ramowka-przycisk {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ffffff;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:13px 52px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    position: absolute;
+    bottom: 250px;
+    left: 100px;
+    z-index: 2;
+}
+.ramowka-przycisk:hover {
+	background-color:#f6f6f6;
+}
+
+/* odtwarzacz */
+.player-pasek {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.573);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 2;
+    display: block;
+    text-align: center;
+}
+
+.staty {
+  float: left;
+  color: White;
+  padding: 15px 0px 0px 0px;
+  text-align: left;
+}
+.nazwa {
+  font-weight: bold;
+}
+
+.player-pasek a {
+    text-decoration: none;
+    color: white;
+}
+
+.player {
+    padding: 20px 0px 0px 0px;
+}
+.wlacz::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f04b";
+  background-color: transparent!important;
+  font-size: 20pt;
+}
+
+.wylacz::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f04c";
+  background-color: transparent!important;
+  font-size: 20pt;
+}
+
+/* ustawienia Modal-a */
+
+.modal {
+    --bs-modal-border-radius: 0px;
+    --bs-modal-bg: #fc0000;
+}
+
+.modal-body {
+    padding: 0px;
+}
+.modal-naglowek {
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.zamknij {
+  border-radius: 0px;
+  font-size: 20pt;
+  background-color: #f6f6f6;
+  color: #000000;
+}
+/* Stopka  */
+footer {
+  background-color: #1c1c1c;
+  height: 400px;
+  width: 100%;
+  display:block;
+  text-align: center;
+}
+
+.logo-stopka {
+  padding: 40px 40px;
+}
+
+.nawigacja-stopka {
+  display: block;
+  padding: 10px 20px;
+  color: White
+}
+.nawigacja-stopka a {
+  color: rgb(250, 245, 245);
+  font-size: 16pt;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.nawigacja-stopka a:hover {
+  color: #fc0000;
+}
+.ikony-stopka {
+  display: block;
+  padding: 10px 20px;
+}
+.ikony-stopka a {
+  color: #fc0000;
+  font-size: 20pt;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.info-autor, .info-autor a {
+  color: rgb(105, 105, 105);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.art1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  min-height: 400px;
+}
+
+.art1 h2 {
+  color: #fc0000;
+}
+/* blok stałe audycje */
+.blok-stale-audycje {
+  background-color: #ddd4d4;
+  padding: 75px 0px 100px 0px;
+}
+.blok-stale-audycje h2{
+  background-color: #ddd4d4;
+  margin: 0px 0px 75px 0px;
+  font-size: 25pt;
+  font-weight: 600;
+}
+
+.prezenter-blok {
+  background-color: #f6f6f6;
+  padding: 20px 0px 0px 20px;
+}
+
+.prezenterzy-info {
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: 600;
+ font-size: 12pt;
+}
+.prezenter-foto {
+display: block;
+margin-right: 20px;
+}
+
+.f-fix {
+  margin-left: -20px!important;
+}
+
+.prezenterzy-info h5 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 19pt;
+}
+
+.gatunki {
+  color: #fc0000;
+  font-weight: 100;
+}
+.prezenter-sm {
+  width: 100%;
+  display:block;
+  padding: 20px 20px 20px 40px;
+}
+
+.prezenter-sm a {
+  color: #fc0000;
+  font-size: 19pt;
+  margin: 0px 10px 0px 0px;
+}
+
+.prezenter-sm a:hover {
+  color: #000000;
+}
+
+.prezenter-audycje {
+  padding: 10px 10px 0px 0px;
+  background-color: #e5e0e0;
+}
+.info-box p {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.info-box {
+  display: inline-block;
+  padding: 5px 50px 5px 50px;
+}
+
+.dzien {
+  padding-bottom: 10px!important;
+}
+
+.live {
+  color:#fc0000
+}
+/* blok stałe audycje koniec */
+
+.pozdro-dol {
+  display: block;
+  width: 307px;
+  height: 71px;
+  background-image: url('../grafika/button-dol.png');
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 9999;
+  font-size: 22pt;
+  padding: 20px 0px 0px 23px;
+}
+
+.pozdro-dol a {
+  color: white;
+  text-decoration: none;
+}
+.pozdro-dol a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.pozdro-dol i {
+ padding: 0px 20px 0px 0px;
+}
+.pozdro-dol-mobi {
+  display: none;
+}
+/* Wyświetlanie mobilne */
+
+  @media only screen and (max-width: 600px) {
+    .logo {
+        display: block;
+        z-index: 1;
+        position: absolute;
+        top: 100px;
+        left: 10px;
+      }
+    .promo1, .promo2 {
+        display: none;
+       
+      }
+      .inna-pozycja-1 .slidx {
+        object-position: 60% 50%!important;
+      }
+      .inna-pozycja-3 .slidx {
+        object-position: 80% 50%!important;
+      }
+
+     .ramowka-przycisk {
+        position: absolute;
+        left: 0px;
+        bottom: 100px;
+       
+     }
+     #volume {
+        display: none;
+     }
+     .nawigacja {
+      background-color:#1c1c1c;
+     }
+     .nawigacja .nav-item {
+      padding: 0px 20px 0px 0px;
+    }
+    
+    .nawigacja-stopka a {
+      font-size: 13pt;
+    }
+    #play2 {
+      display: none;
+    }
+    .prezenter-foto {
+      width: 94%;
+      margin-bottom: 10px;
+    }
+    .pozdro-dol {
+      display: none;
+    }
+    .pozdro-dol-mobi {
+      display: block;
+      width: 71px;
+      height: 71px;
+      position: fixed;
+      bottom: 0px;
+      right: 0px;
+      background-image: url('../grafika/button-dol-mobi.png');
+      padding: 14px 0px 0px 14px;
+    }
+    .pozdro-dol-mobi i{
+      font-size: 33pt;
+    }
+
+  }
